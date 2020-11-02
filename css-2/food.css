@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header Section */
+
+#header{
+    display: flex;
+    position: relative;
+}
+#header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+/* logo */
+
+#logo img{
+    width: 120px;
+    top:0px;
+    }
+    /* Search */
+    #search{
+    /* border: 1px solid green; */
+margin-left: 35px;
+
+    }
+    #search input{
+        padding: 10px;
+        margin-top: 26px;
+        width: 390px;
+        
+    }
+
+/* nav */
+.navbar{
+    /* width: 50%; */
+        
+}
+#nav ul{
+    display: flex;
+    position: absolute;
+    /* border: 1px solid green; */
+    margin-top: 31px;
+
+    list-style: none;
+   
+}
+#nav li a{
+    text-decoration: none;
+    padding: 37px;
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
+}
+#nav li a:hover{
+    color: yellowgreen;
+    font-size: 30px;
+}
+/* End of Header Section */
+
+
+/* Home Section */
+/* .block{
+    border: 1px solid green;
+
+} */
+#home{
+    display: flex;   
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background :url('../img-2/berry-blur-close-up-delicious-566888.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .4;
+}
+
+#home p{
+   
+    align-items: center;
+    font-size: 1.2rem;
+}
+.h-primary{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.btn{
+    background-color: red;
+    background-color: 2px solid white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 160px;
+}
+
+
+
+
+
+/* Services Section */
+#services{
+
+}
+#services div img{
+    width: 100px;
+}
+
+
+/* Our Clients */
+
+
+/* Contact Us */
+
+
+
+
+
+
+
+
